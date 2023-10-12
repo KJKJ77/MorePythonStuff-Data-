@@ -1,0 +1,7 @@
+import numpy as np 
+import matplotlib.pyplot as plt
+
+x=np.random.normal(15,250,150)
+
+plt.hist(x)
+plt.show()
